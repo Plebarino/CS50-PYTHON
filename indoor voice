@@ -1,0 +1,3 @@
+# indoor voice problem set
+inside = input("Use your indoor voice. What is your name? ")
+print(inside.lower())
