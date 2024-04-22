@@ -1,4 +1,5 @@
-CODE
+# playback speed
+playback = input()
 
-
+print(playback)
 
