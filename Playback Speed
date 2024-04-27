@@ -1,5 +1,8 @@
-# playback speed
-playback = input()
+# asks user input then prints out input seperated by "..."
 
-print(playback)
+# asks for user input
+slow = input("Tell me what to say and I'll say it slowly. ")
 
+# prints user input sepertaed by "..."
+x = slow.replace(" ", "...")
+print(x)
