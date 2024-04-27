@@ -1,0 +1,15 @@
+## make a happy face
+# happy = input()
+# x = happy.replace(":)", "🙂")
+# print(x)
+
+## make a sad face
+# sad = input()
+# y = sad.replace(":(", "🙁")
+# print(y)
+
+
+
+emoji = input()
+x = emoji.replace(":)", "🙂").replace(":(", "🙁")
+print(x)
