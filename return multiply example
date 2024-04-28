@@ -1,0 +1,16 @@
+# retrun statement = Functions send Python values/objects back to the caller.
+#                    These values/objects are known as the function's return value.
+
+# takes in two numbers on two new lines
+x = int(input("Give two numbers and we will multiply them. \n"))
+y = int(input())
+
+# creates a funtion to multply two inputs
+def multiply(number1,number2):
+    return number1 * number2
+
+# creates a new variable and uses the function
+z = multiply(x,y)
+
+# prints the answer of the multiplied numbers
+print(z)
